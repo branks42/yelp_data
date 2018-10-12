@@ -1,10 +1,10 @@
 import requests
 from requests_oauthlib import OAuth1
 
-consumer_key = 'Your consumer key here'
-consumer_secret = 'Your consumer secret here'
-token = 'Your token key here'
-token_secret = 'Your token secret here'
+consumer_key = 'CONSUMERKEY'
+consumer_secret = 'CONSUMERSECRET'
+token = 'TOKENKEY'
+token_secret = 'TOKENSECRET'
 
 auth = OAuth1(consumer_key, consumer_secret, token, token_secret)
 
